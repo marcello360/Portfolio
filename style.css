@@ -1,0 +1,32 @@
+/*
+ * Name: Nick VerMulm
+ * Date: 10.12.22
+ * Code: CSS for adjusting layout of app
+*/
+
+#main {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	margin: 25px auto;
+	text-align: center;
+	width: 700px;
+	border-style: solid;
+}
+#main a {
+	color: #4183c4;
+	font-weight: bold;
+}
+#main h1 {
+	font-family: Georgia,'Times New Roman',serif;
+	font-size: 25px;
+	font-weight: normal;
+}
+#password {
+	font-size: 50px;
+	letter-spacing: 1px;
+	padding: 20px 0;
+}
+#password, #main p {
+	margin: 40px auto;
+	text-align: center;
+}

@@ -1,0 +1,33 @@
+<!--
+ * Name: Nick VerMulm
+ * Date: 10.12.22
+ * Code: HTML page holding page layout
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Easy Password Generator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="generator.js"></script>
+</head>
+	<div id="main">
+		<body onload="GEN.load();">
+			<h1>Easily-Typed Password Generator</h1>
+			<div id="password"></div>
+			
+			<label id="error"></label>
+			
+			<label>Password Length:</label>
+			<input type="number" id="length-input" min="8" max="20" value="8"> <br>
+			
+			<label>Maximum Effort:</label>
+			<input type="number" id="effort-input" min="1" max="10" value="2"> <br><br>
+			
+			<label>Final Effort Value:</label>
+			
+			<label id="effort-output"></label> <br><br>
+			<button onclick="GEN.clk();">Generate new password</button><br>
+			<label>&nbsp;</label>
+		</body>
+	</div>
+</html>
